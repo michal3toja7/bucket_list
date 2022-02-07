@@ -1,0 +1,8 @@
+TO_REALIZATION = "TOREALIZATION"
+PART_REALIZED = "PARTREALIZED"
+REALIZED = "REALIZED"
+REALIZATION_STATUS = (
+    (TO_REALIZATION, "Do realizacji"),
+    (PART_REALIZED, "Częściowo zrealizowano"),
+    (REALIZED, "Zrealizowano"),
+)
